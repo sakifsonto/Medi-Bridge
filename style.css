@@ -48,6 +48,7 @@
   width: 1240px;
   position: relative;
 }
+
 .logo {
   display: flex;
   flex-direction: row;
@@ -88,6 +89,7 @@
   flex-shrink: 0;
   position: relative;
 }
+
 .menu {
   display: flex;
   flex-direction: row;
@@ -109,6 +111,25 @@
   line-height: var(--body-large-medium-line-height, 160%);
   font-weight: var(--body-large-medium-font-weight, 500);
   position: relative;
+  text-decoration: none;
+}
+.text2::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #18272F;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
+}
+
+.text2:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
 }
 .icon-caret-down {
   flex-shrink: 0;
@@ -141,6 +162,11 @@
   flex-shrink: 0;
   position: relative;
   overflow: hidden;
+  transition: all 0.3s ease;
+}
+.button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .text3 {
   color: var(--neutral-500, #101918);
@@ -167,6 +193,11 @@
   flex-shrink: 0;
   position: relative;
   overflow: hidden;
+  transition: all 0.3s ease;
+}
+.button2:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .text4 {
   color: var(--base-white, #ffffff);
@@ -225,6 +256,11 @@
   flex-shrink: 0;
   height: 29.78px;
   position: relative;
+  transition: all 0.3s ease;
+}
+.button3:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .ico-container {
   background: var(--primary-100, #b0d7d2);
@@ -311,6 +347,11 @@
   height: 52.11px;
   position: relative;
   overflow: hidden;
+  transition: all 0.3s ease;
+}
+.button4:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .button5 {
   background: var(--neutral-50, #f9fafa);
@@ -328,6 +369,11 @@
   height: 52.11px;
   position: relative;
   overflow: hidden;
+  transition: all 0.3s ease;
+}
+.button5:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .content5 {
   flex-shrink: 0;
@@ -381,6 +427,11 @@
   left: 344.31px;
   top: 371.29px;
   overflow: hidden;
+  transition: all 0.3s ease;
+}
+.testimonial-card-small:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .text8 {
   color: var(--base-white, #ffffff);
@@ -461,6 +512,11 @@
   top: 141.44px;
   box-shadow: 3.72px 1.86px 18.61px 0.93px rgba(148, 148, 148, 0.06);
   overflow: hidden;
+  transition: all 0.3s ease;
+}
+.doctor-card-small:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .content6 {
   display: flex;
@@ -524,6 +580,11 @@
   justify-content: center;
   flex-shrink: 0;
   position: relative;
+  transition: all 0.3s ease;
+}
+.button6:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .text11 {
   color: var(--primary-700, #01594e);
@@ -606,6 +667,11 @@
   height: 29.78px;
   position: relative;
   overflow: hidden;
+  transition: all 0.3s ease;
+}
+.button7:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .icon-phone {
   flex-shrink: 0;
@@ -778,6 +844,11 @@
   flex-shrink: 0;
   width: 283.82px;
   position: relative;
+  transition: all 0.3s ease;
+}
+.why-choose-us-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .icon-container {
   background: var(--primary-500, #017d6e);
@@ -899,6 +970,11 @@
   position: absolute;
   left: 14.89px;
   top: 14.89px;
+  transition: all 0.3s ease;
+}
+.button8:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .icon-container2 {
   background: var(--primary-500, #017d6e);
@@ -990,6 +1066,11 @@
   justify-content: flex-start;
   flex-shrink: 0;
   position: relative;
+  transition: all 0.3s ease;
+}
+.button9:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .icon-container3 {
   background: var(--primary-500, #017d6e);
@@ -1096,6 +1177,11 @@
   flex-shrink: 0;
   width: 387.11px;
   position: relative;
+  transition: all 0.3s ease;
+}
+.our-doctor-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .avatar2 {
   background: var(--neutral-50, #f9fafa);
@@ -1125,6 +1211,11 @@
   position: absolute;
   left: 14.89px;
   top: 14.89px;
+  transition: all 0.3s ease;
+}
+.button10:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .image3 {
   width: 312.67px;
@@ -1200,6 +1291,11 @@
   height: 46.53px;
   position: relative;
   overflow: hidden;
+  transition: all 0.3s ease;
+}
+.button11:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .icon-phone2 {
   flex-shrink: 0;
@@ -1306,6 +1402,11 @@
   height: 46.53px;
   position: relative;
   overflow: hidden;
+  transition: all 0.3s ease;
+}
+.button12:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .testimonials {
   padding: 0px 59.56px 0px 59.56px;
@@ -1334,6 +1435,11 @@
   height: 372.22px;
   position: relative;
   overflow: hidden;
+  transition: all 0.3s ease;
+}
+.testimonial-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .text26 {
   color: var(--neutral-500, #101918);
@@ -1391,6 +1497,11 @@
   height: 372.22px;
   position: relative;
   overflow: hidden;
+  transition: all 0.3s ease;
+}
+.testimonial-card2:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .frame-78 {
   display: flex;
@@ -1804,11 +1915,16 @@
     "PlusJakartaSans-Regular",
     sans-serif
   );
+  
   font-size: var(--body-large-regular-font-size, 16px);
   line-height: var(--body-large-regular-line-height, 160%);
   font-weight: var(--body-large-regular-font-weight, 400);
   position: relative;
   align-self: stretch;
+}
+.text37:hover{
+font-style: bold;
+color: #18272F;
 }
 .divider {
   opacity: 0.2;
@@ -1856,6 +1972,19 @@
   position: relative;
 }
 
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menu-toggle .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 4px 0;
+  transition: 0.4s;
+}
 
 @media (max-width: 1024px) {
   .design {
@@ -1910,14 +2039,29 @@
   }
 
   .navbar {
-    flex-direction: column;
-    gap: 15px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .nav-link {
-    flex-wrap: wrap;
-    gap: 12px;
-    justify-content: flex-start;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  .nav-link.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: flex;
   }
 
   .hero {
@@ -1968,3 +2112,5 @@
     font-size: 14px !important;
   }
 }
+
+
